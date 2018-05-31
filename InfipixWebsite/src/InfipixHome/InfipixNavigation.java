@@ -17,7 +17,7 @@ public class InfipixNavigation {
 		driver.navigate().to("http://159.65.157.201");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 
 		// About
 		driver.findElement(By.id("menu-item-1399")).click();
